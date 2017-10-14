@@ -23,7 +23,7 @@ The program can be used to sift through 1000 entries, 10000(10k) entries, 50000(
 2         GETTING STARTED                                                                     
 2.1         Usage
 The program is designed in a way that makes it easy to use. The options are kept simple, to avoid confusing the user. The aim in mind when creating the program was to simplify the handling of thousands of lines of data by presenting it in a more useful, aesthetically pleasing manner. 
-2.2         Overview
+              2.2         Overview
 As described earlier, the options are kept simple through the usage of Widgets that can easily be clicked to access data. The program presents the user with the following information:
 The Average Price of the houses in a particular county as compared to two other counties.
 A pictogram of the number of houses sold in the county as compared to the same counties as above
@@ -49,9 +49,9 @@ The data taken from the Land Registry is displayed across a number of screens in
 More widgets were created on the Average Over the Years Screen to permit the user to select the start and end year, i.e the range of years for which they wanted to view data. These widget, again will change colour once clicked to inform the user of what years they have currently selected.
 There was also a back widget created that allows users to flick back to the main home screen and switch between counties. 
 Alongside the map is a help option. It features an image which can be clicked to toggle the help text to appear as a separate image. The image provides useful information an how to use the application. When the image is drawn an exit (X) button will appear on the top right-corner of the text making it easier for the user to toggle out of it. The help button can be clicked repeatedly as and when help is required.
-3.2 Average Price
+                3.2 Average Price
 Average Price was calculated while the data was being read in and sorted into the respective counties. Once the average price was calculated, it was represented in a Bar Chart. The bar chart took the average price of a county and used this to generate a height value, and this was done for each county put into the chart. This was then drawn, labelled and spaced accordingly to lay the data out in an easy to digest and visually appealing way. The Chart class and drawing method is relatively versatile, and as a result of this can be used to represent more or less bars, making is possible to be used for the average price over the years statistics page.
-3.3 Pictogram
+                3.3 Pictogram
 The Pictogram chart was used to represent the number of houses in a given county, and much like the Bar Chart, displays the value for the selected county, as well as two  
                                             
 surrounding counties, for the purposes of comparison and contrast. The number of houses to be displayed was calculated by taking the height value and dividing it by the size of the
