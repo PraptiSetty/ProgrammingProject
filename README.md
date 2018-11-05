@@ -1,6 +1,7 @@
 # ProgrammingProject
 
 Contents
+
 1 Introduction                                                                    
 2 Getting started                                                               
 3 Sections                                                                          
